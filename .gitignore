@@ -1,0 +1,64 @@
+src/contract-artifacts.ts
+src/contract-deployed-artifacts.ts
+/chugsplash
+/L1
+/L2
+/libraries
+/standards
+node_modules/
+
+
+.DS_Store
+results
+temp
+.nyc_output
+coverage.json
+*.tsbuildinfo
+**/lcov.info
+
+yarn-error.log
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*
+
+dist
+artifacts
+cache
+
+l2geth/build/bin
+deployments/custom
+coverage*
+@ens*
+@openzeppelin*
+
+
+deployments/devnetL1
+deployments/anvil
+
+# vim
+*.sw*
+
+# jetbrains
+.idea/
+
+.env
+.env*
+!.env.example
+*.log
+
+.devnet
+.patex-sepolia
+# Ignore local fuzzing results
+**/testdata/fuzz/
+
+coverage.out
+
+# Ignore bedrock go bindings local output files
+pt-bindings/bin
+
+
+__pycache__
+
+# Ignore echidna artifacts
+crytic-export
